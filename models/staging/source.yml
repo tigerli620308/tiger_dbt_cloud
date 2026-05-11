@@ -1,0 +1,10 @@
+sources:
+  - name: raw
+    database: TIGER_DBT_DB
+    schema: RAW
+
+    tables:
+      - name: customers
+      - name: orders
+      - name: orderitems
+      - name: employees
